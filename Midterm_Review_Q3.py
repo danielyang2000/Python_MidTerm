@@ -20,13 +20,9 @@
 # When you execute the above code, the output is 2, 3, 5. You are required to use the isPrime function that is provided
 # to you above, to check if the current value of n is a prime number.
 
-def primes(n=1):
-   while n < 100:
-      # yields n instead of returns n
-      if isPrime(n): yield n
-      # next call it will increment n by 1
-      n += 1
-
+def primes(n):
+# <Your code here>
+#
 def isPrime(n):
     if n == 1:
        return False
